@@ -28,7 +28,7 @@ body {
 .section-description {
   color: #757575;
   text-align: center;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 /* Nav related style */
@@ -94,10 +94,36 @@ nav a {
 
 /* Main section styles */
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* About Section */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.info-descriptin {
+  color:  #474747;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
 }
